@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_layout_sub_links",
+  "info": {
+    "displayName": "subLink",
+    "icon": "arrowDown"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "external": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

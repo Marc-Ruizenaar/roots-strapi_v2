@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_layout_title_sections",
+  "info": {
+    "displayName": "Title Section",
+    "icon": "check",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "BackgroundImage": {
+      "type": "boolean"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "linkToSection": {
+      "type": "string"
+    }
+  }
+}

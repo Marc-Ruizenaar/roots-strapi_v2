@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_componant_headers",
+  "info": {
+    "displayName": "Header",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componant.link"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "globalsettings",
+  "info": {
+    "singularName": "globalsetting",
+    "pluralName": "globalsettings",
+    "displayName": "Global Settings",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "footer": {
+      "type": "component",
+      "repeatable": false,
+      "component": "componant.footer"
+    },
+    "header": {
+      "type": "component",
+      "repeatable": true,
+      "component": "componant.link"
+    }
+  }
+}

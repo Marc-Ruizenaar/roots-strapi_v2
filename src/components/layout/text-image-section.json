@@ -1,0 +1,39 @@
+{
+  "collectionName": "components_layout_text_image_sections",
+  "info": {
+    "displayName": "Text Image Section",
+    "icon": "apps",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "leftImageRightText": {
+      "type": "boolean",
+      "default": true
+    },
+    "heading": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "isNewBanner": {
+      "type": "boolean",
+      "default": false
+    },
+    "linkToSection": {
+      "type": "string"
+    }
+  }
+}

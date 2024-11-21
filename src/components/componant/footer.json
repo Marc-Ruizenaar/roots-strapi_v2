@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_componant_footers",
+  "info": {
+    "displayName": "footer"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    }
+  }
+}
